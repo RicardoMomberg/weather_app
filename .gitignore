@@ -1,3 +1,29 @@
-# https://dart.dev/guides/libraries/private-files
-# Created by `dart pub`
+# Dart/Flutter specific
 .dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# API Keys 
+lib/config/api_config.dart
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage
+coverage/
